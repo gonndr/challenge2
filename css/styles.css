@@ -1,0 +1,157 @@
+#title {
+  background-image: url('bg-header-desktop.png');
+  background-repeat: no-repeat;
+  /*   background-size: contain;  */
+}
+
+#footer-end {
+  background-color: hsl(201, 11%, 96%);
+  text-align: center;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+h2 {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+h3 {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  font-size: 1.5rem;
+}
+
+p {
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.icon {
+  padding-bottom: 28px;
+}
+
+.logo {
+  margin-bottom: 80px;
+}
+
+.logo-end {
+  width: 50px;
+  margin: 9px auto;
+
+}
+
+.icon-end {
+  height: 25px;
+margin: 21.5px auto;
+padding: 0 5px;
+}
+
+.cont-heading {
+  padding: 65px 8%;
+}
+
+.button-ios {
+  background-color: hsl(171, 66%, 44%);
+  border-radius: 1000px;
+  box-shadow: 0 4px hsl(171, 66%, 30%), 0px 18px 30px -10px hsl(171, 66%, 70%);
+  padding: 10px 45px;
+  color: white;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+  margin: 10px;
+}
+
+.button-ios:hover {
+  background-color: hsl(171, 66%, 51%);
+  box-shadow: 0 4px hsl(171, 66%, 40%), 0px 18px 30px -10px hsl(171, 66%, 70%);
+  color: white;
+  text-decoration: none;
+}
+
+.button-mac {
+  background-color: hsl(233, 100%, 69%);
+  border-radius: 1000px;
+  box-shadow: 0 4px hsl(233, 100%, 64%), 0px 18px 30px -10px hsl(233, 100%, 80%);
+  padding: 10px 45px;
+  color: white;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+  margin: 10px;
+}
+
+.button-mac:hover {
+  background-color: hsl(233, 100%, 75%);
+  box-shadow: 0 4px hsl(233, 100%, 65%), 0px 18px 30px -10px hsl(233, 100%, 80%);
+  color: white;
+  text-decoration: none;
+}
+
+.feature {
+  text-align: left;
+  /*   padding: 15px 260px 15px 70px;  */
+}
+
+.p-footer {
+  color: hsl(210, 10%, 33%);
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 376px) {
+
+  /* desktop */
+  .right-feats {
+    padding-left: 50px;
+    padding-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .links-end {
+    text-align: left;
+  }
+
+  .p-footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  /* mobile */
+  #title {
+    background-image: url('bg-header-mobile.png');
+    background-repeat: no-repeat;
+  }
+
+  .button-ios {
+    width: 100%;
+  }
+
+  .button-mac {
+    width: 100%;
+  }
+
+  .feature {
+    text-align: center;
+  }
+}
